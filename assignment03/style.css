@@ -111,7 +111,14 @@ h1{
         color: white;
         box-sizing: border-box;
         padding-top: 11px;
+        cursor: pointer;
 
+}
+.fa-arrow-left:hover{
+    transform: scale(1.1,1.1);
+}
+.fa-arrow-right:hover{
+    transform: scale(1.1,1.1);
 }
 .fa-arrow-right{
     
@@ -123,11 +130,13 @@ h1{
         text-align: center;
         color: black;
         box-sizing: border-box;
+        box-shadow: 0 0 12px 0.3px #656565;
         padding-top: 11px;
+        cursor: pointer;
 }
 #value{
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 200px;
     color:#6A7BFF ;
 }
 #create{
